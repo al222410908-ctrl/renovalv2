@@ -2,15 +2,14 @@ import { createFileRoute } from "@tanstack/react-router";
 import { LanguageProvider } from "@/components/LanguageContext";
 import { LandingPage } from "@/components/sections/LandingPage";
 
-export const Route = createFileRoute("/")({
-  component: Index,
+export const Route = createFileRoute("/en")({
+  component: EnglishIndex,
 });
 
-function Index() {
+function EnglishIndex() {
   return (
-    <LanguageProvider locale="es">
+    <LanguageProvider locale="en">
       <LandingPage />
     </LanguageProvider>
   );
 }
-
