@@ -176,7 +176,9 @@ function Index() {
       <header className={`fixed top-0 inset-x-0 z-50 transition-all duration-500 ${scrolled ? "bg-[color:var(--linen)]/95 backdrop-blur border-b border-[color:var(--mint)]/15" : "bg-transparent"}`}>
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <a href="#top" className="flex items-center gap-2">
-            <img src="/logo.png" alt="Renoval Logo" className="w-8 h-8 object-contain" />
+            <div className="w-8 h-8 bg-[color:var(--mint)] flex items-center justify-center">
+              <span className="text-mono text-[color:var(--lime)] text-xs font-bold">R</span>
+            </div>
             <span className="font-display font-extrabold text-xl tracking-tight text-[color:var(--mint)]">RENOVAL</span>
           </a>
           <nav className="hidden md:flex items-center gap-8 text-mono text-[11px] uppercase tracking-widest text-[color:var(--mint)]/75">
@@ -703,7 +705,9 @@ function Index() {
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-8 mb-8">
           <div>
             <div className="flex items-center gap-2 mb-3">
-                <img src="/logo.png" alt="Renoval Logo" className="w-8 h-8 object-contain" />
+              <div className="w-8 h-8 bg-[color:var(--lime)] flex items-center justify-center">
+                <span className="text-mono text-[color:var(--mint)] text-xs font-bold">R</span>
+              </div>
               <span className="font-display font-extrabold text-xl tracking-tight">RENOVAL</span>
             </div>
             <p className="text-mono text-[10px] uppercase tracking-widest text-[color:var(--linen)]/60">
