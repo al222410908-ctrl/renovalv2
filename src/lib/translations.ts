@@ -67,8 +67,8 @@ export const translations = {
     quienes: {
       eyebrow: "02 · Quiénes somos",
       title: "SOMOS RENOVAL.",
-      paragraph1: "Una operación construida para volumen alto sin perder precisión. Diseñamos y fabricamos embalaje industrial de madera para líneas de manufactura que no pueden permitirse fallas de suministro.",
-      paragraph2: "Cobertura en Toluca, Edo. Méx. y Querétaro, planta propia de 12,000 m², madera certificada y procesos auditables pieza a pieza.",
+      paragraph1: "RENOVAL es una empresa mexicana dedicada a proveer soluciones industriales de embalaje de madera para empresas que exigen calidad, precisión y cumplimiento. Fabricamos tarimas, cajas, plataformas y componentes especiales a medida, respaldados por una red de proveedores con aserraderos certificados y un equipo con amplia trayectoria en el sector.",
+      paragraph2: "Nos distingue la capacidad de atender operaciones de alto volumen sin sacrificar la calidad ni la precisión de cada pieza. En RENOVAL, transformamos la madera con ingeniería para crear soluciones confiables, eficientes y adaptadas a las necesidades de cada cliente.",
       stats: [
         ["+10", "AÑOS"],
         ["12K", "M² PLANTA"],
@@ -111,11 +111,11 @@ export const translations = {
       title: "LA PLANTA EN CIFRAS.",
       servicesTitle: "Líneas de servicio",
       stats: [
-        { u: "M³", label: "CAPACIDAD ANUAL" },
-        { u: "PZS/AÑO", label: "PRODUCCIÓN" },
-        { u: "", label: "TRAZABILIDAD" },
-        { u: "AÑOS", label: "TRAYECTORIA" },
-        { u: "", label: "CLIENTES ACTIVOS" },
+        { u: "m³ de madera", label: "anuales con proveedores certificados." },
+        { u: "pies cúbicos", label: "de capacidad de producción por año." },
+        { u: "", label: "Fabricamos con madera de aserraderos legales bajo estándares escritos y medibles." },
+        { u: "Años", label: "de experiencia en el sector industrial." },
+        { u: "Clientes", label: "activos que confían en nosotros." },
       ],
       servicios: [
         "Tarimas nuevas a la medida",
@@ -314,8 +314,8 @@ export const translations = {
     quienes: {
       eyebrow: "02 · About us",
       title: "WE ARE RENOVAL.",
-      paragraph1: "An operation built for high volume without losing precision. We design and manufacture industrial wood packaging for manufacturing lines that cannot afford supply failures.",
-      paragraph2: "Coverage in Toluca, State of Mexico, and Queretaro, with a 12,000 m² owned plant, certified wood, and piece-by-piece auditable processes.",
+      paragraph1: "RENOVAL is a Mexican company dedicated to providing industrial wood packaging solutions for companies that demand quality, precision, and compliance. We manufacture custom-made pallets, boxes, platforms, and special components, backed by a network of suppliers with certified sawmills and a team with an extensive track record in the sector.",
+      paragraph2: "We are distinguished by our capacity to handle high-volume operations without sacrificing the quality or precision of each piece. At RENOVAL, we transform wood with engineering to create reliable, efficient solutions adapted to the needs of each client.",
       stats: [
         ["+10", "YEARS"],
         ["12K", "M² PLANT"],
@@ -358,11 +358,11 @@ export const translations = {
       title: "THE PLANT IN NUMBERS.",
       servicesTitle: "Service Lines",
       stats: [
-        { u: "M³", label: "ANNUAL CAPACITY" },
-        { u: "PCS/YEAR", label: "PRODUCTION" },
-        { u: "", label: "TRACEABILITY" },
-        { u: "YEARS", label: "TRACK RECORD" },
-        { u: "", label: "ACTIVE CLIENTS" },
+        { u: "m³ of wood", label: "annually from certified suppliers." },
+        { u: "cubic feet", label: "of production capacity per year." },
+        { u: "", label: "We manufacture with wood from legal sawmills under written and measurable standards." },
+        { u: "Years", label: "of experience in the industrial sector." },
+        { u: "Clients", label: "active that trust in us." },
       ],
       servicios: [
         "Custom-made new pallets",

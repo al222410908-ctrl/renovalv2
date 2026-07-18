@@ -48,10 +48,10 @@ export function Capacidad() {
                 >
                   <Counter to={k.n} suffix={k.s} />
                 </div>
-                <div className="text-mono text-[10px] uppercase tracking-widest text-[color:var(--terracota)] mt-1">
+                <div className="text-mono text-[11px] font-semibold text-[color:var(--terracota)] mt-1">
                   {k.u}
                 </div>
-                <div className="text-mono text-[10px] uppercase tracking-widest text-[color:var(--mint)]/60 mt-3">
+                <div className="text-xs font-light text-[color:var(--mint)]/85 mt-2 leading-relaxed">
                   {k.label}
                 </div>
               </div>
