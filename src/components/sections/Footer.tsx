@@ -9,8 +9,8 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-8 mb-8">
         <div>
           <div className="flex items-center gap-1 font-bold text-xl tracking-[0.15em] mb-3">
-            <img src="/logo.png" alt="R" className="h-6 w-auto object-contain" />
-            ENO<span className="text-[color:var(--terracota)]">VAL</span>
+            <img src="/logo.png" alt="RENOVAL" className="h-6 w-auto object-contain" />
+            RENO<span className="text-[color:var(--terracota)]">VAL</span>
           </div>
           <p className="text-mono text-[10px] uppercase tracking-widest text-[color:var(--linen)]/60">
             {t.footer.desc}

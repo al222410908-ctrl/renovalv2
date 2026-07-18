@@ -22,8 +22,8 @@ export function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <a href="#top" className="flex items-center gap-1 font-bold text-xl tracking-[0.15em] text-[color:var(--mint)]">
-          <img src="/logo.png" alt="R" className="h-6 w-auto object-contain" />
-          ENO<span className="text-[color:var(--terracota)]">VAL</span>
+          <img src="/logo.png" alt="RENOVAL" className="h-6 w-auto object-contain" />
+          RENO<span className="text-[color:var(--terracota)]">VAL</span>
         </a>
         <nav className="hidden md:flex items-center gap-8 text-mono text-[11px] uppercase tracking-widest text-[color:var(--mint)]/75">
           <a href="#fabricamos" className="hover:text-[color:var(--terracota)] transition">
