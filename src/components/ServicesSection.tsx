@@ -14,7 +14,7 @@ const services = [
 
 function Counter({ from, to, duration = 2 }: { from: number, to: number, duration?: number }) {
   const count = useMotionValue(from);
-  const rounded = useTransform(count, (latest) => Math.round(latest));
+  const rounded = useTransform(count, (latest: number) => Math.round(latest));
   
   React.useEffect(() => {
     const controls = animate(count, to, { duration, ease: "easeOut" });
