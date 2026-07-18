@@ -22,11 +22,7 @@ export function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <a href="#top" className="flex items-center gap-2">
-          <div className="w-8 h-8 bg-[color:var(--mint)] flex items-center justify-center">
-            <span className="text-mono text-[color:var(--lime)] text-xs font-bold">
-              R
-            </span>
-          </div>
+          <img src="/logo.png" alt="Renoval Logo" className="w-8 h-8 object-contain" />
           <span className="font-display font-extrabold text-xl tracking-tight text-[color:var(--mint)]">
             RENOVAL
           </span>

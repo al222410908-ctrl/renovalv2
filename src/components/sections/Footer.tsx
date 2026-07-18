@@ -9,11 +9,7 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-8 mb-8">
         <div>
           <div className="flex items-center gap-2 mb-3">
-            <div className="w-8 h-8 bg-[color:var(--lime)] flex items-center justify-center">
-              <span className="text-mono text-[color:var(--mint)] text-xs font-bold">
-                R
-              </span>
-            </div>
+            <img src="/logo.png" alt="Renoval Logo" className="w-8 h-8 object-contain" />
             <span className="font-display font-extrabold text-xl tracking-tight">
               RENOVAL
             </span>
