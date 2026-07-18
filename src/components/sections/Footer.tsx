@@ -8,11 +8,9 @@ export function Footer() {
     <footer className="bg-[color:var(--mint-deep)] text-[color:var(--linen)] py-12">
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-8 mb-8">
         <div>
-          <div className="flex items-center gap-2 mb-3">
-            <img src="/logo.png" alt="Renoval Logo" className="w-8 h-8 object-contain" />
-            <span className="font-display font-extrabold text-xl tracking-tight">
-              RENOVAL
-            </span>
+          <div className="flex items-center gap-1 font-bold text-xl tracking-[0.15em] mb-3">
+            <img src="/logo.png" alt="R" className="h-6 w-auto object-contain" />
+            ENO<span className="text-[color:var(--terracota)]">VAL</span>
           </div>
           <p className="text-mono text-[10px] uppercase tracking-widest text-[color:var(--linen)]/60">
             {t.footer.desc}
