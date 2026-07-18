@@ -10,7 +10,7 @@ export function Footer() {
         <div>
           <div className="flex items-center gap-1 font-bold text-xl tracking-[0.15em] mb-3">
             <img src="/logo.png" alt="RENOVAL" className="h-6 w-auto object-contain" />
-            RENO<span className="text-[color:var(--terracota)]">VAL</span>
+            RENOVAL
           </div>
           <p className="text-mono text-[10px] uppercase tracking-widest text-[color:var(--linen)]/60">
             {t.footer.desc}
